@@ -1,0 +1,72 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Aula 9 - Tabela e Formulario</title>
+<link rel="stylesheet" href="style2.css">
+</head>
+
+<body>
+
+    <div id="x"> </div>
+
+    <br>
+
+    <hr color="pink" size=3 />
+
+    <br>
+
+
+    <table>
+    <tr>
+    <th class="a">Tabela Div
+    <th class="a">Tabela Div 2
+    <th class="a">Tabela Div 3</th>
+    </tr>
+    <tr>
+    <td class="b">Item 1
+    <td class="b">Item 2
+    <td class="b">Item 3</td>
+    </tr>
+    <tr>
+    <td class="c">Item 4
+    <td class="c">Item 5
+    <td class="c">Item 6</td>
+    </tr>
+    </table>
+
+    <br>
+    <hr color="pink" size=3 />
+
+    <br>	
+
+    <form method="POST" action="arquivo.php">
+    <fieldset>
+    <legend>Identificacao do usuario</legend>
+    <p><label for="a">Nome: <input type="text" placeholder="Nome Completo" id="a" name="nome" /></label>
+    <p><label for="b">Senha: <input type="password" placeholder="8 d�gitos" maxlength=8 id="b" name="senha" /></label>
+    <p><label for="c">E-mail: <input type="email" placeholder="E-mail" id="c" name="email" /></label>
+    </p>
+    <fieldset>
+    <legend>Sexo</legend>
+    <p><label for="d">Feminino <input type="radio" id="d" name="sexo" /></label>
+    <p><label for="e">Masculino <input type="radio" id="e" name="sexo" /></label></p>
+    </fieldset>
+    <p><label for="f">Data de Nascimento: <input type="date" id="f" name="data" /></label></p>
+    </fieldset>
+    <fieldset id="usuario">
+    <legend>Endereco do usuario</legend>
+    <p><label for="g">Logradouro: <input type="text" placeholder="Rua, Av., Trav" id="g" name="logradouro" /></label>
+    <p><label for="h">Numero: <input type="number" id="h" name="n�mero" /></label>
+    <p><label for="i">Cidade: <input type="text" placeholder="Cidade" id="i" name="cidade" /></label>
+    <p>Estado:
+    <select>
+    <option>RJ
+    <option>MG
+    <option>SP</option>
+    </select>
+    </p>
+    <input type="submit" value="Enviar" id="j" />  <input type="reset" value="Limpar" id="k" />
+    </fieldset>
+    </form>
+</body>
+</html>

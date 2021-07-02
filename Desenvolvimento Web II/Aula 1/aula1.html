@@ -1,0 +1,91 @@
+<!DOCTYPE HTML>
+
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>2º período / Aula 1 - Introdução à JS</title>
+	
+		<!-- Para encontrar erros mais facilmente, utilize F12 no Chrome > Console -->	
+		<!-- <script> é o comando para dar início ao JS -->
+	<script>
+	alert("Olá, mundo!"); /* Caixa de mensagem; pop-up */
+	document.write("Bem-vindo!"); /* Para imprimir o texto na tela */
+	
+		/* 3 formas de declarar uma variável em JS: var x, var _x ou var $x */
+		/* Para adicionar espaço entre as palavras num alerta ao imprimir todas juntas, utiliza-se o código dentro da própria variável ou
+		direto no alerta: \u00A0 */
+	var nome = "Maria\u00A0";
+	var _idade = "15\u00A0";
+	var $endereco = "Rua X\u00A0";
+	
+		/* Um alerta para cada variável */
+	alert(nome);
+	alert(_idade);
+	alert($endereco);
+	
+	document.write(nome);
+	document.write(_idade);
+	document.write($endereco);
+	
+		/* Sinal de + para criar a concatenação (união de elementos) */
+	alert("Nome:\u00A0" + nome + "Idade:\u00A0" + _idade + "Endereço:\u00A0" + $endereco); /* para alertar as 3 variáveis em um único alerta */
+	document.write(nome + _idade + $endereco); /* para imprimir as 3 variáveis em um único print */
+	
+		/* Para pular linha, que funciona somente no print, é necessário colocar o comando entre aspas e concatenar */
+	document.write("<br>Nome: " + nome + "<br>Idade: " + _idade + "<br>Endereço: " + $endereco);
+	
+		/* Para pular linha, que funciona no alerta, utiliza-se o código dentro da própria variável ou direto no alerta: \n */
+	var teste = "Testando\nTestando";
+	
+	alert(teste);
+	
+		/* Para abrir um prompt: uma caixa de entrada de dados */
+	var caixa = prompt("Qual é o seu nome?");
+	alert("Olá,\u00A0" + caixa + "!");
+	
+	document.write("<br> Seu nome é\u00A0" + caixa + "!");
+	
+		/* Operadores aritméticos: soma +, subtração -, multiplicação *, divisão /, resto da divisão % */
+		/* 10+5 fará a soma dos elementos, resultando em 15. Já "10"+"5" ou 10+"5" irá concatenar os elementos, resultando em 105. */
+	var soma = 10 + 5; /* soma */
+	alert("A soma dos números 10 e 5 é:\u00A0" + soma);
+	document.write("<br>A soma dos números 10 e 5 é:\u00A0" + soma);
+	
+	var sub = 8.5 - 5; /* subtração */
+	alert("A subtração dos números 8.5 e 5 é:\u00A0" + sub);
+	document.write("<br>A subtração dos números 8.5 e 5 é:\u00A0" + sub);
+	
+	var multi = 2 * 2; /* multiplicação */
+	alert("A multiplicação dos números 2 e 2 é:\u00A0" + multi);
+	document.write("<br>A multiplicação dos números 2 e 2 é:\u00A0" + multi);
+	
+	var div = 10 / 5; /* divisão */
+	alert("A divisão dos números 10 e 5 é:\u00A0" + div);
+	document.write("<br>A divisão dos números 10 e 5 é:\u00A0" + div);
+	
+	var mod = 10 % 3; /* resto da divisão; mod */
+	alert("O resto da divisão é:\u00A0" + mod);
+	document.write("<br>O resto da divisão é:\u00A0" + mod);
+	
+		/* Outra maneira de desenvolver os operadores sem criar uma variável: colocar os valores entre parênteses */
+	alert("A soma dos números é:\u00A0" + (22 + 6));
+	alert("A subtração dos números é:\u00A0" + (10 - 8));
+	document.write("<br>A multiplicação dos números é:\u00A0" + (5 * 5));
+	document.write("<br>A divisão dos números é:\u00A0" + (6 / 2));
+	document.write("<br>O resto da divisão é:\u00A0" + (7 % 2));
+	
+		/* Para usar o prompt agora. No caso de soma, é obrigatório utilizar parseInt (números inteiros) e parseFloat (números decimais) */
+	var num1 = parseInt(prompt("Entre com o primeiro valor inteiro:"));
+	var num2 = parseInt(prompt("Entre com o segundo valor inteiro:"));
+	
+	var soma1 = num1 + num2;
+	alert("A soma dos valores escolhidos é:\u00A0" + soma1); /* ou */ alert("A soma dos valores escolhidos é:\u00A0" + (num1 + num2));	
+	
+	</script>
+</head>
+
+<body>
+
+
+</body>
+</html>

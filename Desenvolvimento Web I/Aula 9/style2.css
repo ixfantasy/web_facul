@@ -1,0 +1,146 @@
+#x {
+	margin:0px auto;
+	border:2px solid black;
+	width:150px;
+	height:150px;
+	position:relative;
+	background-color:#76A;
+	animation-name:div;
+	animation-duration:5s;
+	animation-iteration-count:infinite;
+}
+
+@keyframes div {
+	0% {background-color:pink;
+	left:200px;
+	}
+	
+	50% {background-color:#ffaddc;
+	left:300px;
+	}
+	
+	100%{background-image:url("img.jpg");
+	background-size:100%;
+	left:300px;
+	}
+}
+
+table,th,tr,td {
+	border-collapse:collapse;
+	border: 2px dotted pink;
+	font-family:Helvetica;
+	font-size:10px;
+	height:50px;
+	width:120px;
+	text-align:center;
+	text-shadow: 0px 5px 5px pink;
+	box-shadow: 0px 5px 20px pink;
+	padding:10px 20px;
+	table-layout:fixed;
+	margin: 0px auto;
+	}
+
+/*	
+.a {
+	background-color:#ffe0ee;
+	margin:50px;
+}
+
+.b {
+	background-color:white;
+	margin:50px;
+	background-size:100%;
+}
+
+.c {
+	background-color:#ffaddc;
+	margin:50px;
+}
+*/
+
+tr:nth-child(even) {
+	background-color:#ffaddc;
+}
+
+tr:hover {
+	background-image:url("img.jpg");
+}
+
+td:hover {
+	background-color:pink;
+}
+
+th:hover {
+	background-color:pink;
+}
+
+form {
+	width:500px;
+	margin:auto;
+}
+
+legend {
+	color:pink;
+	font-family:Helvetica;
+	font-size:15px;
+	font-weight:bold;
+}
+
+fieldset {
+	border:3px double pink;
+	background-color:#ffe5ea;
+	background-size:100%;
+	padding:20px;
+}
+
+#usuario {
+	margin:20px 0px;
+}
+
+#j {
+	color:black;
+	font-weight:normal;
+	border:2px dashed white;
+	background-color:pink;
+	font-family:Helvetica;
+	font-size:12px;
+	cursor:pointer;
+}
+
+#j:hover {
+	background-color:white;
+	border:2px dashed pink;
+}
+
+#k {
+	color:black;
+	font-weight:normal;
+	border:2px dashed white;
+	background-color:pink;
+	font-family:Helvetica;
+	font-size:12px;
+	cursor:pointer;
+}
+
+#k:hover {
+	border:2px dashed pink;
+	background-color:white;
+}
+
+input,p {
+	color:pink;
+	font-family:Helvetica;
+	font-size:11px;
+	font-weight:bold;
+	margin:5px 10px;
+}
+
+p:hover {
+	color:black;
+	text-shadow:1px 2px 5px pink;
+}
+
+input:hover {
+	background-color:pink;
+}
+	

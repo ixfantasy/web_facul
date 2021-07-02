@@ -1,0 +1,258 @@
+#container {
+    width: 960px;
+    margin: auto;
+}
+
+body {
+    background-color: #020202;
+}
+
+/* MENU */
+
+#logo {
+    width: 960px;
+    height: 100px;
+    background-color: #121312;
+    background-image: url("imglogo.png");
+    background-repeat: no-repeat;
+    background-position: 20px;
+    background-size: 70px;
+}
+
+#logo h1 {
+    color: #f8f8f8;
+    text-align: center;
+    padding: 15px;
+    word-spacing: 10px;
+    font-family: Impact;
+    font-weight: bold;
+    font-size: 60px;
+}
+
+/* BARRA MENU */
+
+#barra {
+    width: 960px;
+    height: 25px;
+    background-color: #1b1c1b;
+    text-align: center;
+    font-family: "Segoe UI";
+}
+
+#barra a {
+    font-size: 12px;
+    font-weight: bold;
+    color: #f8f8f8;
+    text-decoration: none;
+    padding: 4px 40px 5px;
+    
+}
+
+#barra a:hover {
+    background-color: #1b002a;
+    color: #bababa;
+}
+
+/* BARRA HR */
+
+hr {
+    clear:both;
+    width: 85%;
+    border: 2px outset #f8f8f8;
+}
+
+/* FRASE DE INTRODUÇÃO */
+
+#intro {
+    font-family: Ebrima, Helvetica, Arial;
+    text-align: center;
+    color: #db9eff;
+    font-size: 25px;
+    
+}
+
+/* CONFIGURAÇÕES TEXTOS SOLTOS */
+
+.textos {
+    margin: 30px;
+    font-family: Ebrima, Helvetica, Arial;
+    text-align: justify;
+    color: #bababa;
+    font-size: 17px;
+}
+
+.textos b {
+    color: #65009f;
+    font-size: 18px;
+}
+
+.textos i {
+    color: #db9eff;
+    font-size: 16px;
+}
+
+h1 {
+    color: #e8e8e8;
+    text-align: center;
+    font-family: Ebrima, Helvetica, Arial;
+}
+
+/* BACKGROUND DOS TEXTOS */
+
+.bg {
+    background-color: #1b1c1b;
+    height: 400px;
+    margin: 30px 0px;
+}
+
+/* CONTEÚDO JOGOS */
+
+#imgfornite {
+    float:left;
+    width: 300px;
+    margin: 30px 30px 40px 30px;
+    border: 20px inset #1b002a;
+}
+
+#txtjogos {
+    color: #bababa;
+    float: right;
+    margin: 30px;
+    width: 500px;
+    font-family: Ebrima, Helvetica, Arial;
+    text-align: justify;
+}
+
+#txtjogos b {
+    color: #7100b3;
+    font-size: 18px;
+}
+
+#txtjogos i {
+    color: #ecccff;
+    font-size: 16px;
+}
+
+/* CONTEÚDO UNREAL */
+
+#imgunreal {
+    float: right;
+    width: 300px;
+    margin: 30px 30px 40px 30px;
+    border: 20px outset #1b002a;
+}
+
+#txtunreal {
+    color: #bababa;
+    width: 500px;
+    margin: 30px;
+    font-family: Ebrima, Helvetica, Arial;
+    text-align: justify;
+    float: left;
+}
+
+#txtunreal b {
+    color: #7100b3;
+    font-size: 18px;
+}
+
+#txtunreal i {
+    color: #ecccff;
+    font-size: 16px;
+}
+
+/* FORMULÁRIO */
+
+fieldset {
+    margin: 30px;
+    padding: 20px;
+    background: rgb(43,0,68);
+    background: radial-gradient(circle, rgba(43,0,68,1) 0%, rgba(11,0,18,1) 90%);
+    background-clip: padding-box;
+    border: 2px outset #f8f8f8;
+}
+
+/* RÓTULO */
+
+legend {
+    font-size: 20px;
+    color: #f8f8f8;
+    font-family: Ebrima, Helvetica, Arial;
+    text-shadow: 0px 0px 10px #db9dff;
+}
+
+/* NOMES FORMULÁRIO */
+
+.formu {
+    font-family: Ebrima, Helvetica, Arial;
+    color: #f8f8f8;
+    padding: 2px;
+    font-size: 20px;
+}
+
+.formu:hover {
+    color: #db9dff;
+}
+
+/* CAIXAS FORMULÁRIO */
+
+.caixa {
+    font-weight: bold;
+    font-size: 12px;
+    color: #65009f;
+    background-color: #f8f8f8;
+    font-family: Ebrima, Helvetica, Arial;
+}
+
+.caixa:hover {
+    background-color: #eac7ff;
+}
+
+/* LINHA FORMULÁRIO */
+
+#linha {
+    border: 1px solid #f8f8f8;
+    width: 100%;
+    margin: 30px 0px;
+}
+
+/* CAIXA DE COMENTÁRIOS FORMULÁRIO */
+
+textarea {
+    font-family: Ebrima, Helvetica, Arial;
+    background-color: #f8f8f8;
+    color: #65009f;
+    font-weight: bold;
+}
+
+textarea:hover {
+    background-color: #eac7ff;
+}
+
+/* BOTÃO */
+
+.botao {
+    border: none;
+    height: 30px;
+    background-color: #f8f8f8;
+    font-family: Ebrima, Helvetica, Arial;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    border: 3px dashed #eac7ff;
+}
+
+.botao:hover {
+    background-color: #eac7ff;
+    color: #65009f;
+    border: 3px dashed #65009f;
+}
+
+/* RODAPÉ */
+
+footer {
+    margin:12px;
+    font-size: 10px;
+    color: white;
+    text-align: center;
+}

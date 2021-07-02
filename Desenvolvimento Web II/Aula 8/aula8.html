@@ -1,0 +1,34 @@
+<!DOCTYPE HTML>
+
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Aula 8 - Continuação DOM</title>
+<script src="aula8.js"> </script>
+</head>
+
+<body>
+
+	<center>
+	
+<h1><font face="Verdana" color="#F5D20F">Lâmpadas</font></h1>
+<img src="lamp off.png" id="luz" onmouseover="acendelamp()" onmouseout="apagalamp()" onclick="quebralamp()" />
+
+<form method="POST" action="aula8.py">
+<p><input type="button" value="Digitar Nome" onclick="nome=prompt('Seu nome:', '')" /> <!-- espaço em branco pra receber o valor -->
+<input type="button" value="Digitar E-mail" onclick="email=prompt('E-mail:', '')" />
+<input type="button" value="Cadastrar" onclick="cadastro(this.form.Area)" />
+<p><textarea rows=10 cols=40 name="Area"> </textarea>
+</p>
+</form>
+
+<a href onmouseover="mudacor('#0FE0F5')">Azul</a>
+<a href onmouseover="mudacor('#0FF54E')">Verde</a>
+<a href onmouseover="mudacor('#F976D4')">Rosa</a>
+
+<input type="radio" name="grupo" onclick="document.bgColor='#F976D4' ">Rosa</input>
+
+	</center>
+
+</body>
+</html>

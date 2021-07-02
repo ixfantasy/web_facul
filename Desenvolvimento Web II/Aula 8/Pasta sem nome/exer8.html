@@ -1,0 +1,31 @@
+<!DOCUMENT HTML>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Aula 8 - Exercício</title>
+<script src="exer8.js"> </script>
+</head>
+
+<body>
+
+<form method="POST" action="aula8.py">
+<input type="button" value="Inserir notas" onclick="nota=parseInt(prompt('Nota 1:', ''))" />
+<input type="button" value="Inserir nota 2" onclick="nota1=parseInt(prompt('Nota 2:', ''))" />
+<input type="button" value="Calcular média" onclick="calcular(this.form.Resposta)" />
+<p><textarea rows=10 cols=40 name="Resposta"> </textarea></p>
+</form>
+
+<form method="POST" action="aula8.py">
+<input type="button" value="Inserir notas" onclick="num1=parseInt(prompt('Número 1:', ''))" />
+<input type="button" value="Inserir nota 2" onclick="num2=parseInt(prompt('Número 2:', ''))" />
+<input type="button" value="Inserir notas" onclick="num3=parseInt(prompt('Número 3:', ''))" />
+<input type="button" value="Inserir nota 2" onclick="num4=parseInt(prompt('Número 4:', ''))" />
+<input type="button" value="Inserir notas" onclick="num5=parseInt(prompt('Número 5:', ''))" />
+
+<input type="button" value="Calcular média" onclick="quadrado(this.form.Resposta1)" />
+<p><textarea rows=10 cols=40 name="Resposta1"> </textarea> </p>
+</form>
+
+
+</body>
+</html>

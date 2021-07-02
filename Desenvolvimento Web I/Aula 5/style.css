@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    font-family: Calibri;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+
+.container {
+    width: 1000px;
+    margin: auto;
+}
+
+header {
+    background-color: black;
+    height: 150px;
+    padding: 10px;
+}
+
+#nav {
+    padding: 100px;
+    text-align: left;
+}
+
+#div_esquerda {
+    float: left;
+    background-color: darkseagreen;
+    margin: 10px 0px;
+    min-height: 400px;
+    width: 58%;
+}
+
+#div_direita {
+    float: right;
+    background-color: pink;
+    margin: 10px 0px;
+    min-height: 400px;
+    width: 40%;
+}
+
+footer {
+    clear: both;
+    background-color:black;
+    margin: 20px 0px;
+    color: aqua;
+    text-align: center;
+}

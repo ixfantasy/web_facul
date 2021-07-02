@@ -1,0 +1,53 @@
+<!DOCTYPE HTML>
+<html>
+<meta charset="UTF-8">
+<head>
+<title>Aula 4 - Formulário</title>
+</head>
+<body>
+    <font face="Verdana">
+    <form method="POST" action="nomedoarquivo.php">
+    <fieldset><legend>Cadastro de Cliente</legend>
+    <p><label for="a">Nome:<input type="text" maxlength=10 placeholder="Nome Completo" size=40 id="a" name="nome" /></label>
+    <p><label for="b">Endereço:<input type="text" maxlength=50 placeholder="Rua, número, complemento, bairro, CEP" size=40 id="b" name="endereço" /></label>
+    <p><label for="c">Telefone:<input type="text" maxlength=14 placeholder="(DDD)0000-0000" size=40 id="c" name="telefone" /></label>
+    <p><label for="d">Idade:<input type="number" placeholder="Idade" size=40 id="d" name="idade" /></label>
+    <p><label for="e">E-mail:<input type="email" maxlength=25 placeholder="nome@gmail.com.br" size=40 id="e" name="email" /></label>
+    <p><label for="f">Data de Nascimento:<input type="date" id="f" name="datanascimento" /></label>
+    <p><label for="l">Senha:<input type="password" maxlength=8 placeholder="Senha de 8 dígitos" size=40 id="l" name="senha" />
+    </p>
+
+    <fieldset><legend>Sexo</legend>
+    <label for="g">Feminino<input type="radio" id="g" name="sexo" /></label>
+    <label for="h">Masculino<input type="radio" id="h" name="sexo" /></label>
+    </fieldset>
+
+    <br><br>
+
+    <fieldset><legend>Área de Interesse</legend>
+    <label for="i">Lazer<input type="checkbox" id="i" name="lazer" checked /></label>
+    <label for="j">Esporte<input type="checkbox" id="j" name="esporte" /></label>
+    <label for="k">Informática<input type="checkbox" id="k" name="informatica" /></label>
+    </fieldset>
+
+    <p>Observação</p>
+    <textarea cols=185 rows=2></textarea>
+
+    <p>Estado</p>
+    <select>
+    <option>AC
+    <option>RJ
+    <option>MG
+    <option>SP
+    <option>BH</option>
+    </select>
+    <br><br>
+    <input type="submit" value="Salvar" />
+    <input type="reset" value="Limpar" />
+
+    </fieldset>
+    </form>
+
+    </font>
+</body>
+</html>
